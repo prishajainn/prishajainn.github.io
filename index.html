@@ -4,13 +4,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="The projects, activities, and interests of Prisha Jain.">
-  <title>Prisha Jain | Student Portfolio</title>
+  <title>Prisha Jain</title>
+  <meta property="og:title" content="Prisha Jain">
+  <meta name="twitter:title" content="Prisha Jain">
   <style>:root { --ink:#242126; --pink:#ee4fa0; --red:#ef5e55; --blue:#3d6f9d; --cream:#fffaf1; --green:#a6bd34; }
 * { box-sizing:border-box; }
 html { scroll-behavior:smooth; }
 body { margin:0; background:#fff; color:var(--ink); font-family:"Times New Roman",Times,Georgia,serif; }
 a { color:inherit; text-decoration:none; }
 button { font:inherit; }
+
+
 
 
 .desktop-home { position:relative; display:flex; min-height:100vh; align-items:center; justify-content:center; overflow:hidden; padding:1rem 1.5rem; background:#fff; }
@@ -30,9 +34,13 @@ button { font:inherit; }
 .tiny-hint { position:absolute; bottom:1rem; left:50%; color:#777; font-family:"Bradley Hand","Segoe Print",cursive; font-size:.78rem; transform:translateX(-50%) rotate(-2deg); }
 
 
+
+
 .page-section { position:relative; min-height:100vh; padding:clamp(5rem,8vw,8rem) clamp(1.5rem,8vw,8rem); overflow:hidden; }
 .back-home { position:absolute; top:1.5rem; left:2rem; font-family:"Bradley Hand","Segoe Print",cursive; font-size:1rem; }.back-home:hover { color:var(--pink); }
 .page-title { margin:0 auto 3.5rem; text-align:center; }.page-title span { color:var(--pink); font-family:"Bradley Hand","Segoe Print",cursive; font-size:1.15rem; }.page-title h1 { margin:.15rem 0; font-family:"Bradley Hand","Segoe Print",cursive; font-size:clamp(3.5rem,8vw,7rem); line-height:1; }.page-title p { margin:.7rem 0 0; font-size:1.05rem; }
+
+
 
 
 .projects-section { background:#fff7fb; }.project-folders { display:grid; max-width:74rem; grid-template-columns:repeat(3,1fr); gap:2rem; margin:auto; }.project-folder { position:relative; display:flex; flex-direction:column; padding-top:2.2rem; transform:rotate(-1.5deg); }.project-folder:nth-child(2) { transform:rotate(1.2deg) translateY(1.6rem); }.project-folder:nth-child(3) { transform:rotate(-.8deg) translateY(.4rem); }
@@ -40,8 +48,12 @@ button { font:inherit; }
 .folder-paper { position:relative; display:flex; min-height:25rem; flex:1; flex-direction:column; padding:1.4rem; border-radius:.7rem; box-shadow:0 16px 30px #6e365022; }.folder-paper::before { position:absolute; inset:.8rem; border-radius:.25rem; background:#fffdf8; box-shadow:0 4px 10px #0001; content:""; }.folder-paper>* { position:relative; z-index:1; }.project-category { color:#777; font-size:.72rem; letter-spacing:.12em; text-transform:uppercase; }.folder-paper h2 { margin:2.2rem 0 .75rem; font-family:"Bradley Hand","Segoe Print",cursive; font-size:2rem; }.folder-paper p:not(.project-category) { margin-bottom:1.5rem; line-height:1.65; }.folder-paper .project-link { width:fit-content; margin-top:auto; border-bottom:1px solid; }.paperclip { position:absolute!important; top:-.3rem; right:2.4rem; width:1rem; height:3.6rem; border:3px solid #777; border-radius:999px; transform:rotate(7deg); }
 
 
+
+
 .about-section { display:flex; align-items:center; background:#f7f2e8; }.about-layout { display:grid; width:min(70rem,100%); grid-template-columns:.8fr 1.4fr; gap:5rem; align-items:center; margin:auto; }.polaroid { padding:1rem 1rem 3.4rem; background:white; box-shadow:0 15px 30px #3d2b1f2a; transform:rotate(-6deg); }.about-photo { display:block; width:100%; aspect-ratio:4/5; object-fit:cover; object-position:center 42%; }.polaroid span { display:block; margin-top:1rem; font-family:"Bradley Hand","Segoe Print",cursive; font-size:1.25rem; text-align:center; }
 .lined-note { position:relative; padding:4rem 3rem 3rem; background:repeating-linear-gradient(#fff 0 2.15rem,#b9cce0 2.2rem 2.25rem); box-shadow:0 14px 30px #4535251c; transform:rotate(1deg); }.lined-note::before { position:absolute; inset:0 auto 0 2.3rem; width:2px; background:#ef8b8b; content:""; }.lined-note h2 { margin:0 0 1.5rem; font-family:"Bradley Hand","Segoe Print",cursive; font-size:3rem; }.lined-note p { font-size:1.15rem; line-height:1.85; }.tape { position:absolute; top:-1.4rem; left:50%; padding:.6rem 2rem; background:#f3d976cc; font-family:"Bradley Hand","Segoe Print",cursive; transform:translateX(-50%) rotate(-2deg); }.edit-note { color:#b44f78; font-family:"Bradley Hand","Segoe Print",cursive; }
+
+
 
 
 .activities-section { background:#dfe9e1; }.bulletin-board { display:grid; max-width:64rem; grid-template-columns:repeat(2,1fr); gap:2.5rem; margin:auto; }.sticky { min-height:18rem; padding:2rem; box-shadow:5px 8px 15px #29352d24; transform:rotate(-3deg); }.sticky-1 { background:#fff19b; }.sticky-2 { background:#ffb5d0; transform:rotate(2deg) translateY(1rem); }.sticky-3 { background:#b9ddf2; transform:rotate(-1deg); }.sticky-4 { background:#c7e6c9; transform:rotate(2deg) translateY(1rem); }.sticky span { font-size:.72rem; letter-spacing:.1em; }.sticky h2 { margin:2rem 0 1rem; font-family:"Bradley Hand","Segoe Print",cursive; font-size:2rem; }.sticky p { line-height:1.6; }
@@ -49,6 +61,8 @@ button { font:inherit; }
 .favorites-section { background:#fff7d7; }.favorites-grid { display:grid; max-width:64rem; grid-template-columns:repeat(2,1fr); gap:2rem; margin:auto; }.favorites-grid div { display:flex; min-height:11rem; flex-direction:column; justify-content:center; padding:2rem; border:2px dashed #d9a728; background:#fffefa; text-align:center; transform:rotate(-1deg); }.favorites-grid div:nth-child(even) { transform:rotate(1.5deg); }.favorites-grid small { color:#aa7914; font-family:"Bradley Hand","Segoe Print",cursive; font-size:1rem; }.favorites-grid strong { margin-top:.8rem; font-size:1.35rem; }
 .photos-section { background:#202225; color:white; }.photos-section .back-home { color:white; }.film-strip { display:grid; grid-template-columns:repeat(4,1fr); gap:1rem; padding:2rem 1rem; border-top:12px dotted #ddd; border-bottom:12px dotted #ddd; background:#101113; }.film-strip div { display:grid; aspect-ratio:4/3; place-items:center; background:#4d5359; color:#adb4ba; font-family:"Bradley Hand","Segoe Print",cursive; }
 .contact-section { display:flex; align-items:center; justify-content:center; background:#f7a4b9; }.mail-card { display:flex; width:min(44rem,100%); min-height:25rem; flex-direction:column; justify-content:center; padding:4rem; border:2px solid #a4475e; background:#fffaf0; box-shadow:12px 14px 0 #bd516b; transform:rotate(-1deg); }.mail-card>span { padding-bottom:.7rem; border-bottom:1px solid #999; }.mail-card h2 { margin:2rem 0 .5rem; font-family:"Bradley Hand","Segoe Print",cursive; font-size:3.4rem; }.mail-card a { width:fit-content; margin-top:1rem; border-bottom:1px solid; }
+
+
 
 
 @media (max-width:760px) {
@@ -80,6 +94,8 @@ button { font:inherit; }
     </section>
 
 
+
+
     <section id="projects" class="page-section projects-section">
       <a class="back-home" href="#top">← back to my desk</a>
       <div class="page-title"><span>strategy · analytics · storytelling</span><h1>my projects</h1><p>click a folder to peek inside</p></div>
@@ -91,6 +107,8 @@ button { font:inherit; }
     </section>
 
 
+
+
     <section id="about" class="page-section about-section">
       <a class="back-home" href="#top">← back to my desk</a>
       <div class="about-layout">
@@ -98,6 +116,8 @@ button { font:inherit; }
         <div class="lined-note"><p class="tape">a little about me</p><h2>hi, i'm Prisha!</h2><p>I'm a high school student interested in <strong>business analytics</strong>. I love asking questions, making things, and finding creative ways to help the people around me.</p></div>
       </div>
     </section>
+
+
 
 
     <section id="activities" class="page-section activities-section">
@@ -112,20 +132,28 @@ button { font:inherit; }
     </section>
 
 
+
+
     <section id="education" class="page-section education-section">
       <a class="back-home" href="#top">← back to my desk</a>
       <div class="report-card"><div class="report-top">PRISHA JAIN · STUDENT FILE</div><h2>Los Altos High School</h2><p>Class of 2027</p><div class="report-row"><strong>Academic focus</strong><span>Business analytics · Computer science · Marketing</span></div><div class="report-row"><strong>Relevant coursework</strong><span>AP Computer Science; AP Calculus BC; Trigonometry Honors; AP Physics; Chemistry Honors; Biology Honors; AP Language &amp; Composition; AP Spanish; AP Human Geography; AP U.S. History; and Foothill College courses in Principles of Marketing, E-Business, and Principles of Business.</span></div><div class="report-row"><strong>Clubs &amp; leadership</strong><span>Indian Student Union — Event Planner (11th), President (12th); LAHS Philanthropy — Founder &amp; President; Bright Smiles — Vice President; Jumpstart Mentor; Speech and Debate; NorCal Girls Lacrosse; JV Lacrosse Captain; Varsity Lacrosse Player.</span></div></div>
     </section>
 
 
+
+
  <section id="favorites" class="page-section favorites-section">
   <a class="back-home" href="#top">← back to my desk</a>
+
+
 
 
   <div class="page-title">
     <span>the person behind the projects</span>
     <h1>current favorites</h1>
   </div>
+
+
 
 
   <div class="favorites-grid">
@@ -135,16 +163,22 @@ button { font:inherit; }
     </div>
 
 
+
+
     <div>
       <small>reading</small>
       <strong>The Help</strong>
     </div>
 
 
+
+
     <div>
       <small>learning</small>
       <strong>Practicing Python</strong>
     </div>
+
+
 
 
     <div>
@@ -155,11 +189,15 @@ button { font:inherit; }
 </section>
 
 
+
+
     <section id="photos" class="page-section photos-section">
       <a class="back-home" href="#top">← back to my desk</a>
       <div class="page-title"><span>little moments</span><h1>film roll</h1><p>we'll add photos that show Prisha's personality and projects</p></div>
       <div class="film-strip"><div>photo 1</div><div>photo 2</div><div>photo 3</div><div>photo 4</div></div>
     </section>
+
+
 
 
     <section id="contact" class="page-section contact-section">
