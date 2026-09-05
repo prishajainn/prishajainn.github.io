@@ -60,7 +60,7 @@ button { font:inherit; }
 .activities-section { background:#dfe9e1; }.bulletin-board { display:grid; max-width:64rem; grid-template-columns:repeat(2,1fr); gap:2.5rem; margin:auto; }.sticky { min-height:18rem; padding:2rem; box-shadow:5px 8px 15px #29352d24; transform:rotate(-3deg); }.sticky-1 { background:#fff19b; }.sticky-2 { background:#ffb5d0; transform:rotate(2deg) translateY(1rem); }.sticky-3 { background:#b9ddf2; transform:rotate(-1deg); }.sticky-4 { background:#c7e6c9; transform:rotate(2deg) translateY(1rem); }.sticky span { font-size:.72rem; letter-spacing:.1em; }.sticky h2 { margin:2rem 0 1rem; font-family:"Bradley Hand","Segoe Print",cursive; font-size:2rem; }.sticky p { line-height:1.6; }
 .education-section { display:flex; align-items:center; background:#dce9f6; }.report-card { width:min(48rem,100%); margin:auto; padding:3rem; border:1px solid #8aa0b4; background:#fffdf8; box-shadow:14px 16px 0 #7da0bc; transform:rotate(-1deg); }.report-top { padding-bottom:1rem; border-bottom:2px solid #26394a; letter-spacing:.15em; }.report-card h2 { margin:2rem 0 .2rem; font-family:"Bradley Hand","Segoe Print",cursive; font-size:3rem; }.report-row { display:grid; grid-template-columns:1fr 1.6fr; gap:1rem; padding:1rem 0; border-bottom:1px dashed #879aaa; }.report-row span { line-height:1.55; }
 .favorites-section { background:#fff7d7; }.favorites-grid { display:grid; max-width:64rem; grid-template-columns:repeat(2,1fr); gap:2rem; margin:auto; }.favorites-grid div { display:flex; min-height:11rem; flex-direction:column; justify-content:center; padding:2rem; border:2px dashed #d9a728; background:#fffefa; text-align:center; transform:rotate(-1deg); }.favorites-grid div:nth-child(even) { transform:rotate(1.5deg); }.favorites-grid small { color:#aa7914; font-family:"Bradley Hand","Segoe Print",cursive; font-size:1rem; }.favorites-grid strong { margin-top:.8rem; font-size:1.35rem; }
-.photos-section { background:#202225; color:white; }.photos-section .back-home { color:white; }.film-strip { display:grid; grid-template-columns:repeat(4,1fr); gap:1rem; padding:2rem 1rem; border-top:12px dotted #ddd; border-bottom:12px dotted #ddd; background:#101113; }.film-strip div { display:grid; aspect-ratio:4/3; place-items:center; background:#4d5359; color:#adb4ba; font-family:"Bradley Hand","Segoe Print",cursive; }
+.photos-section { background:#202225; color:white; }.photos-section .back-home { color:white; }.film-strip { display:grid; grid-template-columns:repeat(4,1fr); gap:1rem; padding:2rem 1rem; border-top:12px dotted #ddd; border-bottom:12px dotted #ddd; background:#101113; }.film-strip div { overflow:hidden; aspect-ratio:4/3; background:#4d5359; }.film-strip img { display:block; width:100%; height:100%; object-fit:cover; }
 .contact-section { display:flex; align-items:center; justify-content:center; background:#f7a4b9; }.mail-card { display:flex; width:min(44rem,100%); min-height:25rem; flex-direction:column; justify-content:center; padding:4rem; border:2px solid #a4475e; background:#fffaf0; box-shadow:12px 14px 0 #bd516b; transform:rotate(-1deg); }.mail-card>span { padding-bottom:.7rem; border-bottom:1px solid #999; }.mail-card h2 { margin:2rem 0 .5rem; font-family:"Bradley Hand","Segoe Print",cursive; font-size:3.4rem; }.mail-card a { width:fit-content; margin-top:1rem; border-bottom:1px solid; }
 
 
@@ -194,8 +194,15 @@ button { font:inherit; }
 
     <section id="photos" class="page-section photos-section">
       <a class="back-home" href="#top">← back to my desk</a>
-      <div class="page-title"><span>little moments</span><h1>film roll</h1><p>we'll add photos that show Prisha's personality and projects</p></div>
-      <div class="film-strip"><div>photo 1</div><div>photo 2</div><div>photo 3</div><div>photo 4</div></div>
+      <div class="page-title"><span>little moments</span><h1>film roll</h1><p>a few moments from school, work, and play</p></div>
+      <div class="film-strip">
+        <div><img src="film-01.webp" alt="Prisha with classmates and a dog in front of a projected chessboard"></div>
+        <div><img src="film-02.webp" alt="Prisha outside the Warner Music Group and MongoDB building sign"></div>
+        <div><img src="film-03.webp" alt="Prisha standing in front of the University of Washington library"></div>
+        <div><img src="film-04.webp" alt="Students collaborating at a hackathon event"></div>
+        <div><img src="film-05.webp" alt="Los Altos girls lacrosse team playing on the field"></div>
+        <div><img src="film-06.webp" alt="Prisha and classmates hosting a school event booth"></div>
+      </div>
     </section>
 
 
